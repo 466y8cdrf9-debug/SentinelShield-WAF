@@ -1,0 +1,5 @@
+{
+  "sqli": ["SELECT", "UNION", "DROP", "INSERT", "' OR '1'='1", "--"],
+  "xss": ["<script>", "javascript:", "onerror=", "onload="],
+  "path_traversal": ["../", "..\\", "/etc/passwd"]
+}
